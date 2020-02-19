@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 500px;
+  width: 100vw;
+  background-color: blue;
+}
+img{
+  float: left;
+  width: 200px;
+}
+.navigazione{
+      overflow: hidden;
+      z-index: 1000;
+}
+
+.navigazione a{
+  float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   margin-top: 40px;
+}
+
+.navigazione2{
+  float: right;
+  margin-right: 40px;
+  padding: 30px;
+  margin-bottom: 90px;
+
+}
+.sottonavigazione{
+  margin-top: 200px;
+  margin-left: 40px;
+}
+
+h1{
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+}
+
+img.cravatta{
+  width: 600px;
+  float: right;
+  
+}
